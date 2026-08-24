@@ -16,15 +16,6 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "old_wp_id": {
-      "type": "integer"
-    },
-    "post_name": {
-      "type": "string"
-    },
-    "content_json": {
-      "type": "json"
     }
   }
 }

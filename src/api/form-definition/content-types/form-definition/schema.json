@@ -16,12 +16,6 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "old_cf7_id": {
-      "type": "string"
-    },
-    "fields_config": {
-      "type": "json"
     }
   }
 }

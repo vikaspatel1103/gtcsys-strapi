@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "mkdir -p public/uploads .tmp && strapi start",
     "build": "strapi build"
   },
   "dependencies": {
