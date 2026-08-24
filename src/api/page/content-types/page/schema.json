@@ -17,9 +17,6 @@
     "slug": {
       "type": "string",
       "unique": true
-    },
-    "content_json": {
-      "type": "json"
     }
   }
 }

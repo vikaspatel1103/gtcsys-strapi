@@ -1,0 +1,1 @@
+module.exports={rest:{defaultLimit:100}};

@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "scripts": {
     "develop": "strapi develop",
-    "start": "mkdir -p public/uploads .tmp && strapi start",
-    "build": "strapi build"
+    "start": "rm -rf src/api/page/routes src/api/form-definition/routes src/api/popup/routes && mkdir -p public/uploads .tmp && strapi start",
+    "build": "rm -rf src/api/page/routes src/api/form-definition/routes src/api/popup/routes && strapi build"
   },
   "dependencies": {
     "@strapi/strapi": "4.20.5",
