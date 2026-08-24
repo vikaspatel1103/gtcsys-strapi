@@ -16,12 +16,6 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "trigger_type": {
-      "type": "string"
-    },
-    "delay_ms": {
-      "type": "integer"
     }
   }
 }

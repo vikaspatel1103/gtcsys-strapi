@@ -20,14 +20,8 @@
     "old_cf7_id": {
       "type": "string"
     },
-    "is_popup": {
-      "type": "boolean"
-    },
     "fields_config": {
       "type": "json"
-    },
-    "email_to": {
-      "type": "email"
     }
   }
 }
