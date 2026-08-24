@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "old_wp_id": {
+      "type": "integer"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "content_json": {
+      "type": "json"
+    },
+    "is_elementor": {
+      "type": "boolean",
+      "default": false
+    },
+    "post_name": {
+      "type": "string"
+    }
+  }
+}

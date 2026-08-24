@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popups",
+  "info": {
+    "singularName": "popup",
+    "pluralName": "popups",
+    "displayName": "Popup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "trigger_type": {
+      "type": "enumeration",
+      "enum": [
+        "click",
+        "auto",
+        "exit_intent",
+        "scroll"
+      ],
+      "default": "click"
+    },
+    "delay_ms": {
+      "type": "integer",
+      "default": 0
+    },
+    "linked_form": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::form-definition.form-definition"
+    }
+  }
+}

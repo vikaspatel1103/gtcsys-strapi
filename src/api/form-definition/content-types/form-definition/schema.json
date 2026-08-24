@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_definitions",
+  "info": {
+    "singularName": "form-definition",
+    "pluralName": "form-definitions",
+    "displayName": "Form Definition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "old_cf7_id": {
+      "type": "string"
+    },
+    "is_popup": {
+      "type": "boolean",
+      "default": false
+    },
+    "fields_config": {
+      "type": "json"
+    },
+    "thank_you_message": {
+      "type": "text",
+      "default": "Thank you! We will contact you soon."
+    },
+    "email_to": {
+      "type": "email"
+    },
+    "form_type": {
+      "type": "enumeration",
+      "enum": [
+        "contact",
+        "quote",
+        "inquiry",
+        "faq",
+        "other"
+      ],
+      "default": "contact"
+    }
+  }
+}
