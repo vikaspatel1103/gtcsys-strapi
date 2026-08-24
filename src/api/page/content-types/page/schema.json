@@ -11,11 +11,15 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "slug": {
-      "type": "uid",
-      "targetField": "title"
+      "type": "string",
+      "unique": true
+    },
+    "content_json": {
+      "type": "json"
     }
   }
 }
