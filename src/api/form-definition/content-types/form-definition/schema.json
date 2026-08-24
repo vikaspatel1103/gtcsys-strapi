@@ -11,8 +11,7 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "slug": {
       "type": "uid",
@@ -22,29 +21,13 @@
       "type": "string"
     },
     "is_popup": {
-      "type": "boolean",
-      "default": false
+      "type": "boolean"
     },
     "fields_config": {
       "type": "json"
     },
-    "thank_you_message": {
-      "type": "text",
-      "default": "Thank you! We will contact you soon."
-    },
     "email_to": {
       "type": "email"
-    },
-    "form_type": {
-      "type": "enumeration",
-      "enum": [
-        "contact",
-        "quote",
-        "inquiry",
-        "faq",
-        "other"
-      ],
-      "default": "contact"
     }
   }
 }

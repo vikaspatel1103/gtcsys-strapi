@@ -11,8 +11,7 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "slug": {
       "type": "uid",
@@ -21,24 +20,14 @@
     "old_wp_id": {
       "type": "integer"
     },
-    "seo_title": {
+    "post_name": {
       "type": "string"
-    },
-    "seo_description": {
-      "type": "text"
-    },
-    "content": {
-      "type": "blocks"
     },
     "content_json": {
       "type": "json"
     },
     "is_elementor": {
-      "type": "boolean",
-      "default": false
-    },
-    "post_name": {
-      "type": "string"
+      "type": "boolean"
     }
   }
 }

@@ -1,0 +1,1 @@
+module.exports={routes:{'find':{},'findOne':{},'create':{},'update':{},'delete':{}}}
